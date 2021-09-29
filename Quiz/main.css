@@ -1,0 +1,132 @@
+.header{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.name, 
+.email{
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+.name_txt,
+.email_txt{
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    border-radius: 7px;
+    font-size: 20px;
+    width: 350px;
+    
+}
+
+.scale{
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 60px;
+}
+
+.scale_txt{
+    width: 350px;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+.place{
+    margin-left: 5%;
+    font-family: 'Work Sans', sans-serif;
+    border-radius: 7px;
+    font-size: 25px;
+    
+}
+
+.place_txt{
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+
+
+.emo{
+    margin-top: 30px;
+    margin-left: 10%;
+    font-family: 'Work Sans', sans-serif;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+
+
+.exp{
+    margin-top: 30px;
+    margin-left: 10%;
+    font-family: 'Work Sans', sans-serif;
+    border-radius: 7px;
+    font-size: 20px;
+
+}
+
+
+.div2 {
+    background-color:aliceblue;
+    margin-left: 44%;
+    border: 2px solid;
+    padding: 20px; 
+    width: 300px;
+    resize: both;
+    overflow: auto;
+    border-radius: 9px;
+  }
+
+.submit{
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
+.submit_txt{
+    text-align: center;
+    background-color:#5DADE2;
+    height: 40px;
+    width: 80px;
+    border-radius: 9px;
+}
+
+
+input {
+    margin: .4rem 0;
+}
+
+#fr_txt{
+    margin-left: 23.5%;
+    margin-right: 5.2%;
+}
+
+.smth{
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+.check{
+    margin-top: 50px;
+    margin-left: 10%;
+    font-family: 'Work Sans', sans-serif;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+#fl_txt{
+    margin-left: 30%;
+    margin-right: 3.8%;
+}
