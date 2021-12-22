@@ -1,7 +1,3 @@
-document.querySelector("#pencil").addEventListener("click", () => {
-  document.querySelector("#all_items").textContent = "";
-})
-
 document.querySelector("#user_input").addEventListener("keydown", (event) => {
   if(event.key == "Enter")
     addItem();
