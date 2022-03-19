@@ -1,0 +1,64 @@
+
+fieldset{ max-width: 300px;}
+fieldset>textarea{width:100%}
+fieldset>button{float:right}
+
+.look{
+    margin-left: 40%;
+    font-family: fantasy;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.noty{
+    margin-left: 40%;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.tag{
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+/*
+#button{
+    border-radius: 8px;
+}
+*/
+
+.hidden{
+  display:none;
+}
+
+body.show-notifications{
+  overflow:hidden;
+}
+
+body.show-notifications #divNotificationArea{
+  display:flex;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  position:fixed;
+  background-color:#0009;
+  top:0;
+  left:0;
+  width:100vw;
+  height:100vh;
+}
+
+#divNotificationArea{
+  display:none;
+}
+
+.dialogBody{
+  padding:0 20px;
+  display:block;
+  background-color:white;
+  min-width:300px;
+  max-width:400px;
+  width:100%;
+  min-height:50%;
+}

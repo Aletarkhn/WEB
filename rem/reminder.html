@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/rem.css">
+    <title>Reminder App</title>
+</head>
+<body>
+     
+    <fieldset class="look">
+        <legend>Add notification</legend>
+        <textarea id="txtNotifyMsg" placeholder="Your notification" ></textarea>
+        <br />
+        <input type="date" id="notifydate" />
+        <br />
+        <br />
+        <button id="btnAddNotification" id="button">Add notification</button>
+    </fieldset>
+    
+    <ul id="ulAllNotifications" class="noty"></ul>
+<br>
+
+   <div class="tag"> 
+    <div id="divNotificationArea" onclick="document.body.className=''">
+    <div class="dialogBody">    
+      <h3>Tings you need to remember today:</h3>
+      <ul id="ulNotifications"></ul>
+    </div>
+    </div>
+    </div>
+     <br>
+    <div><textarea> press ctrl+R to see results</textarea></div>
+
+    <script src="rem.js"></script>
+
+</body>
+</html>
